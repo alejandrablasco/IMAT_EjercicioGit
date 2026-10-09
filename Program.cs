@@ -7,10 +7,15 @@
             return x + y;
         }
 
+        static int Multiply(int x, int y)
+        {
+            return x * y;
+        }
+
         static void Main(string[] args)
         {
-            // ID 202405782 -> primer dígito 2, último dígito 2
-            Console.WriteLine($"Suma: 2 + 2 = {Add(2, 2)}");
+            // ID 202403124 -> primer dígito 2, último dígito 4
+            Console.WriteLine($"Multiplicación: 2 * 4 = {Multiply(2, 4)}");
         }
     }
 }
